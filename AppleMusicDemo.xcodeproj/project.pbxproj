@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71357641EF00BB000D71F00 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71357621EF00BB000D71F00 /* SliderViewController.swift */; };
+		F71357651EF00BB000D71F00 /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71357631EF00BB000D71F00 /* SliderViewController.xib */; };
+		F71357671EF0484D00D71F00 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71357661EF0484D00D71F00 /* MusicTableViewController.swift */; };
+		F74230431EF06ED70024DA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74230421EF06ED70024DA5A /* ViewController.swift */; };
 		F76E614C1EF00A3C009A744D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E614B1EF00A3C009A744D /* AppDelegate.swift */; };
-		F76E614E1EF00A3C009A744D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E614D1EF00A3C009A744D /* ViewController.swift */; };
 		F76E61511EF00A3C009A744D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76E614F1EF00A3C009A744D /* Main.storyboard */; };
 		F76E61531EF00A3C009A744D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76E61521EF00A3C009A744D /* Assets.xcassets */; };
 		F76E61561EF00A3C009A744D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76E61541EF00A3C009A744D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F71357621EF00BB000D71F00 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		F71357631EF00BB000D71F00 /* SliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewController.xib; sourceTree = "<group>"; };
+		F71357661EF0484D00D71F00 /* MusicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
+		F74230421EF06ED70024DA5A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
 		F76E61481EF00A3C009A744D /* AppleMusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76E614B1EF00A3C009A744D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F76E614D1EF00A3C009A744D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F76E61501EF00A3C009A744D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76E61521EF00A3C009A744D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76E61551EF00A3C009A744D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				F76E614B1EF00A3C009A744D /* AppDelegate.swift */,
-				F76E614D1EF00A3C009A744D /* ViewController.swift */,
+				F74230421EF06ED70024DA5A /* ViewController.swift */,
+				F71357661EF0484D00D71F00 /* MusicTableViewController.swift */,
 				F76E614F1EF00A3C009A744D /* Main.storyboard */,
+				F71357621EF00BB000D71F00 /* SliderViewController.swift */,
+				F71357631EF00BB000D71F00 /* SliderViewController.xib */,
 				F76E61521EF00A3C009A744D /* Assets.xcassets */,
 				F76E61541EF00A3C009A744D /* LaunchScreen.storyboard */,
 				F76E61571EF00A3C009A744D /* Info.plist */,
@@ -127,6 +136,7 @@
 				F76E61561EF00A3C009A744D /* LaunchScreen.storyboard in Resources */,
 				F76E61531EF00A3C009A744D /* Assets.xcassets in Resources */,
 				F76E61511EF00A3C009A744D /* Main.storyboard in Resources */,
+				F71357651EF00BB000D71F00 /* SliderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76E614E1EF00A3C009A744D /* ViewController.swift in Sources */,
+				F71357641EF00BB000D71F00 /* SliderViewController.swift in Sources */,
+				F71357671EF0484D00D71F00 /* MusicTableViewController.swift in Sources */,
+				F74230431EF06ED70024DA5A /* ViewController.swift in Sources */,
 				F76E614C1EF00A3C009A744D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +277,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24LJMF7J23;
 				INFOPLIST_FILE = AppleMusicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alecoconnor.AppleMusicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24LJMF7J23;
 				INFOPLIST_FILE = AppleMusicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alecoconnor.AppleMusicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +318,7 @@
 				F76E615C1EF00A3C009A744D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

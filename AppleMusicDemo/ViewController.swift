@@ -12,8 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        addSliderView()
     }
+    
+    func addSliderView() {
+        let sliderViewController = SliderViewController()
+        
+        addChildViewController(sliderViewController)
+        view.addSubview(sliderViewController.view)
+        sliderViewController.didMove(toParentViewController: self)
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
