@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ContainerViewController.swift
 //  AppleMusicDemo
 //
 //  Created by Alec O'Connor on 6/13/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContainerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +22,6 @@ class ViewController: UIViewController {
         view.addSubview(sliderViewController.view)
         sliderViewController.didMove(toParentViewController: self)
     }
-    
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
